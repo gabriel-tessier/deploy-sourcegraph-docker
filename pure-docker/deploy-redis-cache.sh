@@ -18,6 +18,6 @@ docker run --detach \
     --cpus=1 \
     --memory=6g \
     -v $VOLUME:/redis-data \
-    index.docker.io/sourcegraph/redis-cache:5.2.6@sha256:f3d39cc187520cf63ca05dd6e678081cca8a1b26a595843b236945fd6701002c
+    index.docker.io/sourcegraph/redis-cache:5.3.0@sha256:e98452bfbb54aa73a9854fe4c516443079d998a14d2c29555bb9a606094c299a
 
 echo "Deployed redis-cache service"

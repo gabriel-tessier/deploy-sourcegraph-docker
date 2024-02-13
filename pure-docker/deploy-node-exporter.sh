@@ -19,7 +19,7 @@ sudo docker run --detach \
     --volume=/proc:/host/proc:ro \
     --volume=/sys:/host/sys:ro \
     -p 0.0.0.0:9100:9100 \
-    index.docker.io/sourcegraph/node-exporter:5.2.6@sha256:33833b0b8097c2362b81088da68da719c79b12e49d76af51181e02d476794975 \
+    index.docker.io/sourcegraph/node-exporter:5.3.0@sha256:c74fafcb2c90356e8b7ca9bf2829d9c36510db8ca1500f15e9efe381b5992bd2 \
     '--path.procfs=/host/proc' \
     '--path.rootfs=/rootfs' \
     '--path.sysfs=/host/sys' \

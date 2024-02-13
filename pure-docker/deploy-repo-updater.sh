@@ -22,6 +22,6 @@ docker run --detach \
     -e SRC_FRONTEND_INTERNAL=sourcegraph-frontend-internal:3090 \
     -e 'OTEL_EXPORTER_OTLP_ENDPOINT=http://otel-collector:4317' \
     -v $VOLUME:/mnt/cache \
-    index.docker.io/sourcegraph/repo-updater:5.2.6@sha256:23bce7013d1afc2240a0bb88ae674e75f523aafa11fa05f271d0f28bcf7f45a9
+    index.docker.io/sourcegraph/repo-updater:5.3.0@sha256:5e3aef99f7c8281089a2aae38fb44cafebbddd1abd28771bc1b88c48282f6651
 
 echo "Deployed repo-updater service"
